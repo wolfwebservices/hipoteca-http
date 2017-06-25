@@ -33,6 +33,7 @@ window.location.hash == "#/404"
 
 var request;
 function getRoute(hashName){
+Pace.restart()
 var url="/partials/" + hashName + ".html";
 
 if(window.XMLHttpRequest){
