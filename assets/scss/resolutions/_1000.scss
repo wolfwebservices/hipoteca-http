@@ -1,3 +1,25 @@
-@media () {
+@media (max-width:1000px) {
+
+#desk-btn-calculadora{
+  display: none;
+}
+
+#desk-btn-inicio{
+  display: none;
+}
+#desk-btn-acerca{
+  display: none;
+}
+
+#desk-btn-contacto{
+  display: none;
+}
+
+
+#logo-desktop{
+  width:33%;
+}
+
+
 
 }
