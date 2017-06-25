@@ -5,6 +5,7 @@
     <title>Crédito Hipotecario</title>
     <script src="assets/js/main.js" charset="utf-8"></script>
     <script src="assets/js/router.js" charset="utf-8"></script>
+    <script src="assets/js/calculadora.js" charset="utf-8"></script>
     <link rel="stylesheet" href="assets/css/index.css">
   </head>
   <body onload="router()">
@@ -15,19 +16,19 @@
    </button>
 
   <button type="button" name="button"
-   onclick="inicio()" class="nav-desktop-btn">
+   onclick="inicio()" class="nav-desktop-btn" id="desk-btn-inicio">
    Inicio</button>
 
   <button type="button" name="button"
-  onclick="window.location.hash='/acerca'" class="nav-desktop-btn">
+  onclick="window.location.hash='/acerca'" class="nav-desktop-btn" id="desk-btn-acerca">
     Acerca</button>
 
   <button type="button" name="button"
-  onclick="window.location.hash='/calculadora'" class="nav-desktop-btn">
+  onclick="window.location.hash='/calculadora'" class="nav-desktop-btn" id="desk-btn-calculadora">
     Calculadora</button>
 
   <button type="button" name="button"
-  onclick="window.location.hash='/contacto'" class="nav-desktop-btn">
+  onclick="window.location.hash='/contacto'" class="nav-desktop-btn" id="desk-btn-contacto">
     Contacto</button>
 </div>
 

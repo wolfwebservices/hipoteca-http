@@ -9,3 +9,16 @@ if ( window.history && window.history.pushState ) {
       //  history.pushState('', document.title, window.location.pathname);
       //  getRoute("/inicio");
 }}
+
+
+
+var buttons = [
+  "inicio",
+  "acerca",
+  "calculadora",
+  "contacto"
+]
+for (var i = 0; i < buttons.length; i++) {
+removeClass(document.getElementById("desk-btn-" + buttons[i]), 'desk-button-active')
+removeClass(document.getElementById("desk-btn-" + buttons[i]), 'desk-button-active')
+}

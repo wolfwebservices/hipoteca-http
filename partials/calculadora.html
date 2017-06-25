@@ -1,1 +1,28 @@
 <h1>Calculadora</h1>
+
+
+<table id="container">
+  <tr>
+    <th id="head" colspan="2">Calculadora de crédito hipotecario</th>
+  </tr>
+  <tr>
+    <td class="lab">Importe:</td>
+    <td><input class="textfield" type="text" id="importe"></td>
+  </tr>
+  <tr>
+    <td class="lab">Plazo en meses: </td>
+    <td><input class="textfield" type="text" id="meses"></td>
+  </tr>
+  <tr>
+    <td class="lab">Taza de interés: </td>
+    <td><input class="textfield" type="text" id="interes"></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><input  type="button" value="calcular" onclick="cal()"></td>
+  </tr>
+  <tr>
+    <td class="lab">Usted pagaría, por mes, aproximadamente:</td>
+    <td class="lab" id="result"></td>
+  </tr>
+</table>

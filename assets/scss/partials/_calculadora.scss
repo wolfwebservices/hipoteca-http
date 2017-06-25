@@ -1,0 +1,26 @@
+#container{
+  background-color: black;
+}
+
+#container .lab{
+  background-color: red;
+}
+
+#head{
+  background-color: red;
+  border-collapse: collapse;
+}
+
+
+input[value="calcular"]{
+  width:100%;
+  background-color: blue;
+  cursor: crosshair;
+  font-size: 18px;
+  border: 2px white;
+  height:100%;
+}
+
+input[value="calcular"]:hover{
+  background-color: red;
+}
