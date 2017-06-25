@@ -5,11 +5,11 @@ function router(){
     if (window.location.hash) {
     check();
     getRoute(window.location.href.split("#/")[1]);
+    buttons_color(window.location.href.split("#/")[1]);
   }else{
-    buttons_color("inicio");
         getRoute("/inicio");
+        buttons_color("inicio");
   }
-buttons_color(window.location.href.split("#/")[1]);
 }
 
 
