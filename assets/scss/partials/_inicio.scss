@@ -9,7 +9,7 @@
   opacity: 0.2;
   background-attachment:fixed;
   z-index: -1;
-position: absolute;
+  position: absolute;
 }
 
 
@@ -18,11 +18,28 @@ position: absolute;
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  height: 40vw;
+  height: 30vw;
   width: 40vw;
   z-index: 4;
   position: absolute;
   margin-left: 30vw;
-  margin-right: 30;
-  margin-top: -5vh;
+  margin-right: 30vw;
+  margin-top: 10vh;
+  background-color:rgba(250,250,250,0.4);
+  overflow: hidden;
+  background-size: 120% 120%;
+  border-radius: 10%;
+}
+
+
+@media (max-width:1000px) {
+
+  .hipotecaris-logo{
+    height: 60vw;
+    width: 70vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    margin-top: 10vh;
+  }
+
 }
