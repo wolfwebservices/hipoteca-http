@@ -8,4 +8,21 @@
   background-size: cover;
   opacity: 0.2;
   background-attachment:fixed;
+  z-index: -1;
+position: absolute;
+}
+
+
+.hipotecaris-logo{
+  background-image: url("../svg/hipotecaris.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 40vw;
+  width: 40vw;
+  z-index: 4;
+  position: absolute;
+  margin-left: 30vw;
+  margin-right: 30;
+  margin-top: -5vh;
 }

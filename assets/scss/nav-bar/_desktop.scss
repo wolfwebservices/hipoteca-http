@@ -5,9 +5,7 @@ width:100%;
 position: fixed;
 top:0;
 overflow: hidden;
-/*
-background-image: url("https://www.transparenttextures.com/patterns/stressed-linen.png");
-/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+z-index: 99;
 }
 
 
@@ -24,7 +22,7 @@ background-image: url("https://www.transparenttextures.com/patterns/stressed-lin
   font-size: 120%;
   color: rgba(32,32,32,0.7);
   overflow: hidden;
-  
+
 }
 
 
