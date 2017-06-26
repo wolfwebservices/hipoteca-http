@@ -1,5 +1,10 @@
 .inicio-img{
   width: 100%;
   height:93vh;
-  background-color: red;
+//  background-color: red;
+  background-image: url("../img/houses.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  opacity: 0.5;
 }
