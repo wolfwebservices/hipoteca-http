@@ -12,8 +12,11 @@
 
 
 body{
- background-image: url("https://www.transparenttextures.com/patterns/shattered-dark.png");
+// background-image: url("https://www.transparenttextures.com/patterns/shattered-dark.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
   /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
   background-position: center;
-  background-size: 30% 30vw;
+  background-size: 10% 10vw;
+
 }
