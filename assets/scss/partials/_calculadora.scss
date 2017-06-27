@@ -34,7 +34,7 @@
   border: 2px white;
   height:100%;
 }
-#boton:after {
+#boton::after {
     content: '';
     position: absolute;
     left: 0px;
@@ -46,6 +46,6 @@
     transition: all 3s ease-in-out;
 }
 
-#boton:after:hover{
+#boton::after:hover{
   opacity: 1;
 }
