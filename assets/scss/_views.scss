@@ -3,3 +3,11 @@
   min-height: 93vh;
   width: 100%;
 }
+
+
+@media (max-width:1000px) {
+  #views{
+    margin-top:10vh;
+    min-height: 90vh;
+  }
+}

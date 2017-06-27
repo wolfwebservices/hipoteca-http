@@ -24,9 +24,7 @@
   height: 10vh;
 }
 
-#views{
-margin-top:10vh;
-}
+
 
 .inicio-v{
   margin-top: 10vh;
@@ -38,8 +36,12 @@ body{
 }
 
 
+
+
 }
 
+
+/////////////////
 .hamburger-menu{
   display: none;
 }
@@ -55,6 +57,7 @@ body{
 }
 
 
+
 .open{
 display: block;
 max-height: 200px;
@@ -63,9 +66,9 @@ animation: slideDown 0.5s ease;
 }
 
 .closed{
-max-height: 20px;
+max-height: 0px;
 animation: slideUp 2s ease;
-//display: none;
+display: none;
 }
 
 

@@ -10,7 +10,6 @@ addClass(listener, "open")
   }else{
     removeClass(listener, "open")
     addClass(listener, "closed")
-
     state = false;
 
   }
