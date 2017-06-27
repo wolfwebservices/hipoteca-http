@@ -37,6 +37,22 @@ body{
   background-size: 50% 50vw;
 }
 
+
+}
+
+.hamburger-menu{
+  display: none;
+}
+
+.mobile-nav-bar{
+  display: none;
+  background-color: red;
+  height: 0;
+  width: 100%;
+  position: fixed;
+  z-index: 99;
+}
+
 .hamburger-menu{
   display: inline-block;
   height: 10vh;
@@ -45,7 +61,15 @@ body{
 }
 
 
+.nav-mobile-btn{
+width: 100%;
+text-align: center;
+float: left;
+font-size: 100%;
+margin-bottom: 3%;
+height: 5vh;
+}
 
-
-
+#mobile-btn-inicio{
+  margin-top: 3%;
 }
