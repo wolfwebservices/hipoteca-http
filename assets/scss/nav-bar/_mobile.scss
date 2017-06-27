@@ -47,11 +47,34 @@ body{
 .mobile-nav-bar{
   display: none;
   background-color: red;
-  height: 0;
+  max-height: 0;
   width: 100%;
   position: fixed;
-  z-index: 99;
+  z-index: 98;
+
 }
+
+
+.open{
+display: block;
+max-height: 200px;
+animation: slideDown 0.5s ease;
+
+}
+
+.closed{
+max-height: 20px;
+animation: slideUp 2s ease;
+//display: none;
+}
+
+
+
+
+
+
+
+
 
 .hamburger-menu{
   display: inline-block;
