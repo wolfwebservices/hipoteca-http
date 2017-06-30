@@ -27,7 +27,7 @@ function cal(){
 
   pago = Number((pago).toFixed(2));
 
-  g("result").innerHTML = "$" + pago;
+  g("result").value = "$" + pago;
 
 
 }

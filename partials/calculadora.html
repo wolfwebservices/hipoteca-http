@@ -1,31 +1,23 @@
 <div class="calculadora-v">
-  <h1>Calculadora</h1>
 
 <div class="calculadora-c">
-  <table id="container">
-    <tr>
-      <th id="head" colspan="2">Calculadora de crédito hipotecario</th>
-    </tr>
-    <tr>
-      <td class="lab">Importe:</td>
-      <td><input class="textfield" type="text" id="importe"></td>
-    </tr>
-    <tr>
-      <td class="lab">Plazo en meses: </td>
-      <td><input class="textfield" type="text" id="meses"></td>
-    </tr>
-    <tr>
-      <td class="lab">Taza de interés: </td>
-      <td><input class="textfield" type="text" id="interes"></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td><div id="boton" onclick="cal()">Calcular</div></td>
-    </tr>
-    <tr>
-      <td class="lab">Usted pagaría, por mes, aproximadamente:</td>
-      <td class="lab" id="result"></td>
-    </tr>
-  </table>
-</div>
-</div>
+
+<div class="calculadora-h">Calculadora de crédito hipotecario</div>
+<br>
+<div for="" class="calculadora-lbl">Importe</div>
+<input type="text" class="calculadora-input" id="importe">
+<br>
+<br>
+<div for="" class="calculadora-lbl">Plazo en meses</div>
+<input type="text" class="calculadora-input" id="meses">
+<br>
+<br>
+<div for="" class="calculadora-lbl">Taza de interés</div>
+<input type="text" class="calculadora-input" id="interes">
+<br>
+<br>
+<button type="button" name="button" class="calculadora-button" onclick="cal()" id="boton">Calcular</button>
+<br>
+<div for="" class="calculadora-lbl">Usted pagaría por mes</div><br>
+<br>
+<input for="" id="result" class="calculadora-input" disabled>
