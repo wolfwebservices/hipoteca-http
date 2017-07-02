@@ -9,7 +9,6 @@
   opacity: 0.4;
   background-attachment:fixed;
   z-index: -1;
-
 }
 
 
@@ -30,19 +29,15 @@
   background-size: 120% 120%;
   border-radius: 10%;
   backdrop-filter: blur(2px);
-
+  -webkit-animation-delay: 0.5s; /* Safari 4.0 - 8.0 */
+animation-delay: 0.5s;
+  -webkit-animation: slideDown 1s; /* Safari 4+ */
+   -moz-animation:    slideDown 1s; /* Fx 5+ */
+   -o-animation:      slideDown 1s; /* Opera 12+ */
+   animation:         slideDown 1s; /* IE 10+, Fx 29+ */
 }
 
 
-@media (max-width:1000px) {
-
-  .hipotecaris-logo{
-    height: 60vw;
-    width: 70vw;
-    margin-left: 15vw;
-    margin-right: 15vw;
-    margin-top: 10vh;
-  }
-
-
+.inicio-v{
+  margin-top: 54px;
 }

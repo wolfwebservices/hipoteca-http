@@ -7,6 +7,10 @@ top:0;
 overflow: hidden;
 z-index: 99;
 backdrop-filter: blur(2px);
+-webkit-animation: slideLeft 0.7s; /* Safari 4+ */
+ -moz-animation:    slideLeft 0.7s; /* Fx 5+ */
+ -o-animation:      slideLeft 0.7s; /* Opera 12+ */
+ animation:         slideLeft 0.7s; /* IE 10+, Fx 29+ */
 }
 
 

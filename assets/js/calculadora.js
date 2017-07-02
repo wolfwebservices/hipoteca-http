@@ -12,7 +12,7 @@ function cal(){
 
   if(isNaN(importe) || isNaN(plazo) || isNaN(interes) ||
      importe === "" || plazo==="" || interes===""){
-    alert("Debe introducir solamente números");
+    alert("Revise que haya introducido solamente numeros y que no haya dejado ningún campo vacío");
     return;
   }
 
