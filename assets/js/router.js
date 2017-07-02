@@ -6,6 +6,7 @@ function router(){
     check();
     getRoute(window.location.href.split("#/")[1]);
     buttons_color(window.location.href.split("#/")[1]);
+
   }else{
         getRoute("/inicio");
         buttons_color("inicio");

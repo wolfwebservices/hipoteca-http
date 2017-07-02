@@ -1,5 +1,5 @@
 .nav-bar-desktop{
-background-color:rgba(250,250,250,0.4);
+background-color:rgba(250,250,250,0.5);
 height: 7vh;
 width:100%;
 position: fixed;
@@ -22,7 +22,6 @@ z-index: 99;
   font-size: 120%;
   color: rgba(32,32,32,0.7);
   overflow: hidden;
-
 }
 
 
@@ -41,4 +40,14 @@ background-position:center;
   //background-color: #871C4A;
   color: #871C4A;//#003FCB;
   border-bottom: solid 3px #871C4A;//#003FCB;
+}
+
+
+
+.nav-desktop-open{
+  background-color: rgba(250,250,250,0.9);
+}
+
+.nav-desktop-closed{
+  background-color: rgba(250,250,250,0.5);
 }
