@@ -31,10 +31,15 @@ display: none;
 
 .hamburger-menu{
   display: inline-block;
-  height: 10vh;
-  width: 10vh;
+  height: 54px;
+  width: 54px;
   float: right;
+  outline: none;
+  border: none;
+  margin-right: 5px;
+  background-color: transparent;
 }
+
 
 
 .nav-mobile-btn{
@@ -64,3 +69,6 @@ border: none;
 #mobile-btn-inicio{
   margin-top: 3%;
 }
+
+
+//Hamburger settings
