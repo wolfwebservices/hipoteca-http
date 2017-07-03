@@ -6,7 +6,6 @@ function router(){
     check();
     getRoute(window.location.href.split("#/")[1]);
     buttons_color(window.location.href.split("#/")[1]);
-
   }else{
         getRoute("/inicio");
         buttons_color("inicio");
@@ -63,6 +62,12 @@ location.hash = '#/404' //otherwise, some other code was returned
 }
 var val=request.responseText;
 document.getElementById('views').innerHTML=val;
+}
+
+// Load chart 
+
+if (window.location.hash == "#/acerca"){
+  loadChart();
 }
 }
 
