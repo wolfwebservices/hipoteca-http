@@ -6,7 +6,17 @@ function router(){
     check();
     getRoute(window.location.href.split("#/")[1]);
     buttons_color(window.location.href.split("#/")[1]);
-  }else{
+////////////////////////////LOADING CHART////////////////////////////////////
+if (window.location.hash == "#/calculadora"){
+var script = document.createElement('script');
+script.src = "assets/js/Chart.bundle.min.js";
+script.onload = function() {
+console.log("Graph its been loaded");
+loadChart();
+};
+document.getElementsByTagName('head')[0].appendChild(script);}
+////////////////////////////LOADING CHART////////////////////////////////////
+}else{
         getRoute("/inicio");
         buttons_color("inicio");
   }
@@ -57,6 +67,7 @@ function sendRoute(){
 if(request.readyState==4){
 if(request.status === 200){
   //check if "OK" (200) //success
+
 } else {
 location.hash = '#/404' //otherwise, some other code was returned
 }
@@ -64,11 +75,8 @@ var val=request.responseText;
 document.getElementById('views').innerHTML=val;
 }
 
-// Load chart 
+// Load chart
 
-if (window.location.hash == "#/acerca"){
-  loadChart();
-}
 }
 
 //___________End of XMLHttpRequest__________________________

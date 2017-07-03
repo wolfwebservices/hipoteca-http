@@ -42,6 +42,7 @@
   font-family: 'Poppins', sans-serif;
   margin-top: 100px;
   margin-bottom: 100px;
+  backdrop-filter: blur(4px);
 }
 
 
@@ -100,4 +101,19 @@ font-family: arial;
 
 .calculadora-button:hover{
 background-color: #303030;
+}
+
+
+
+.graph{
+height: auto;
+width: 40vw;
+margin-left: 30vw;
+margin-right: 30vw;
+margin-top: 100px;
+margin-bottom:100px;
+background-color: rgba(250,250,250,0.5);
+backdrop-filter: blur(5px);
+border-radius: 5px;
+font-family: arial;
 }
